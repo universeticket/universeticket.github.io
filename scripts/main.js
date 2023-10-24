@@ -321,7 +321,8 @@ function swapTrainees(index1, index2) {
 const alternateRomanizations = {
   'vu linh dan': ['vu linhdan'],
   'xiaoyu': ['xiao yu'],
-  'zhou jiaqi': ['zhou jia qi']
+  'zhou jiaqi': ['zhou jia qi'],
+  'kwon chaewon': ['eunchae']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
