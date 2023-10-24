@@ -121,7 +121,7 @@ body {
   color: white;
 }
 #getlink-button:active { /* these styles are active while get link is being pressed */
-  background-color: #ea597c;
+  background-color: #f86e8e;
 }
 #getlink-textbox {
   margin-left: 5px;
