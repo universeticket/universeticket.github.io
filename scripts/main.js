@@ -319,10 +319,13 @@ function swapTrainees(index1, index2) {
 // <original> is the original name as appearing on csv
 // all of it should be lower case
 const alternateRomanizations = {
-  'vu linh dan': ['vu linhdan'],
-  'xiaoyu': ['xiao yu'],
+  'vu linh dan': ['vu linhdan', 'vũ Linh đan', 'debbie'],
+  'xiaoyu': ['xiao yu', 'zhou xiao yu'],
   'zhou jiaqi': ['zhou jia qi'],
-  'kwon chaewon': ['eunchae']
+  'kwon chaewon': ['eunchae'],
+  'bae yeram': ['elisha'],
+  'bae haram': ['lydia'],
+  'jang minju': ['aki']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
