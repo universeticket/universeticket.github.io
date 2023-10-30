@@ -3,9 +3,9 @@ A personal ranker that allows you to rank and sort your own Top 8 for SBS's Kore
 ![Screenshot](screenshot.png)
 
 <b>Updates</b>
-24/10: Ranker is live!
-26/10: Removed grey background, added colors for 1st and 2nd half
-30/10: Nationality is now showcased instead of company on contestants list
+* 24/10: Ranker is live!
+* 26/10: Removed grey background, added colors for 1st and 2nd half
+* 30/10: Nationality is now showcased instead of company on contestants list
 
 <b>WIP</b>
 * Showcase nationality instead of company on top8
