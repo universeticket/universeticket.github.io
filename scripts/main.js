@@ -241,17 +241,27 @@ function populateRanking() {
   }
 }
 
-const abbreviatedCompanies = {
-  "RAINBOW BRIDGE WORLD": "RBW",
-  "BLOCKBERRY CREATIVE": "BBC",
-  "INDIVIDUAL TRAINEE": "INDIVIDUAL",
+const abbreviatedNationalities = {
+  "JAPAN": "JPN 🇯🇵",
+  "CHINA": "CHN 🇨🇳",
+  "SOUTH KOREA": "KOR 🇰🇷",
+  "CANADA": "CAN 🇨🇦",
+  "AUSTRALIA": "AUS 🇦🇺",
+  "THAILAND": "THA 🇹🇭",
+  "MONGOLIA": "MNG 🇲🇳",
+  "MYANMAR": "MMR 🇲🇲",
+  "ITALY": "ITA 🇮🇹",
+  "PHILIPPINES": "PHL 🇵🇭",
+  "MALAYSIA": "MYS 🇲🇾",
+  "JAPAN/FRANCE": "JPN/FRA 🇯🇵🇫🇷",
+  "VIETNAM": "VNM 🇻🇳",
+  "JAPAN/AUSTRALIA": "JPN/AUS 🇯🇵🇦🇺"
 }
 
 function populateRankingEntry(trainee, currRank) {
-  let modifiedCompany = trainee.company.toUpperCase();
-  modifiedCompany = modifiedCompany.replace("ENTERTAINMENT", "ENT.");
-  if (abbreviatedCompanies[modifiedCompany]) {
-    modifiedCompany = abbreviatedCompanies[modifiedCompany];
+  let modifiedNationality = trainee.nationality.toUpperCase();
+  if (abbreviatedNationlaities[modifiedNationality]) {
+    modifiedNationality = abbreviatedNationalities[modifiedNationality];
   }
   let eliminated = (showEliminated && trainee.eliminated) && "eliminated";
   let top8 = (showTop8 && trainee.top8) && "top8";
@@ -269,7 +279,7 @@ function populateRankingEntry(trainee, currRank) {
     </div>
     <div class="ranking__row-text">
       <div class="name"><strong>${trainee.name_romanized}</strong></div>
-      <div class="company">${modifiedCompany}</div>
+      <div class="nationality">${modifiedNationality}</div>
     </div>
   </div>`;
   return rankingEntry;
@@ -325,18 +335,22 @@ const alternateRomanizations = {
   'vu linh dan': ['vu linhdan', 'vũ Linh đan', 'debbie'],
   'xiaoyu': ['xiao yu', 'zhou xiao yu'],
   'zhou jiaqi': ['zhou jia qi'],
-  'kwon chaewon': ['eunchae'],
+  'kwon chaewon': ['eunchae','dia'],
   'bae yeram': ['elisha'],
   'bae haram': ['lydia'],
-  'jang minju': ['aki']
+  'jang minju': ['aki','majors'],
+  'park yewon': ['hot issue'],
+  'jin hyeonju': ['belle', 'cignature'],
+  'nana': ['prikil'],
+  'kotoko': ['prikil']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
 function filterTrainees(event) {
   let filterText = event.target.value.toLowerCase();
-  // filters trainees based on name, alternate names, and company
+  // filters trainees based on name, alternate names, company, nationality and birth year
   filteredTrainees = trainees.filter(function (trainee) {
-    let initialMatch = includesIgnCase(trainee.name_romanized, filterText) || includesIgnCase(trainee.company, filterText);
+    let initialMatch = includesIgnCase(trainee.name_romanized, filterText) || includesIgnCase(trainee.company, filterText) || includesIgnCase (birthyear, filterText) || includesIgnCase (trainee.nationality, filterText);
     // if alernates exists then check them as well
     let alternateMatch = false;
     let alternates = alternateRomanizations[trainee.name_romanized.toLowerCase()]
