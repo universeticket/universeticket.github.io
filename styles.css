@@ -366,7 +366,7 @@ body {
   background-color: var(--no-rank);
 }
 
-.ranking__entry .company {
+.ranking__entry .nationality {
   color: var(--ranking-affil-gray);
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;

@@ -332,17 +332,22 @@ function swapTrainees(index1, index2) {
 // <original> is the original name as appearing on csv
 // all of it should be lower case
 const alternateRomanizations = {
-  'vu linh dan': ['vu linhdan', 'vũ Linh đan', 'debbie'],
-  'xiaoyu': ['xiao yu', 'zhou xiao yu'],
+  'vu linh dan': ['vu linhdan','vũ Linh đan','debbie','the voice kids'],
+  'xiaoyu': ['xiao yu','zhou xiao yu'],
   'zhou jiaqi': ['zhou jia qi'],
   'kwon chaewon': ['eunchae','dia'],
-  'bae yeram': ['elisha'],
-  'bae haram': ['lydia'],
+  'bae yeram': ['elisha','pwmc','play with me club'],
+  'bae haram': ['lydia','play with me club','pwmc'],
   'jang minju': ['aki','majors'],
   'park yewon': ['hot issue'],
-  'jin hyeonju': ['belle', 'cignature'],
+  'jin hyeonju': ['belle','cignature'],
   'nana': ['prikil'],
-  'kotoko': ['prikil']
+  'kotoko': ['prikil'],
+  'jeon jieun': ['busters'],
+  'ahn seungbi': ['an seungbi','play with me club','pwmc'],
+  'oh yoona': ['yoonah','play with me club','pwmc'],
+  'lee sunwoo': ['girls planet 999','gp999'],
+  'choi hyerin': ['girls planet 999','gp999']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
