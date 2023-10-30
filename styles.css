@@ -47,15 +47,15 @@ body {
   text-align: center;
 }
 #banner-image {
-  width: 175px;
+  width: 150px;
   margin-bottom: 15px;
 }
 #banner-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 #banner-subtitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffd1d8;
   font-size: 12px;
 }
