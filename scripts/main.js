@@ -260,9 +260,6 @@ const abbreviatedNationalities = {
 
 function populateRankingEntry(trainee, currRank) {
   let modifiedNationality = trainee.nationality.toUpperCase();
-  if (abbreviatedNationalities[modifiedNationality]) {
-    modifiedNationality = abbreviatedNationalities[modifiedNationality];
-  }
   let eliminated = (showEliminated && trainee.eliminated) && "eliminated";
   let top8 = (showTop8 && trainee.top8) && "top8";
   const rankingEntry = `
