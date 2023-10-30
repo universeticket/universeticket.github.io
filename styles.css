@@ -38,7 +38,7 @@ body {
 
 /* Styles for banner */
 #top-banner {
-  background: radial-gradient(circle, var(--banner-bg-start), var(--banner-bg-end) 70%);
+  background: radial-gradient(circle, var(--banner-bg-start), var(--banner-bg-end) 50%);
   /* background-color: var(--banner-bg-color); */
   padding: 25px;
 
