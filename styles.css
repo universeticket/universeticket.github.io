@@ -11,7 +11,7 @@
   --ranking-affil-gray: #989898;
   --save-box-gray: #b1b1b1;
 
-  --checked-blue: #052ae2CC;
+  --checked-green: #66e9c8;
 
   /* ranking border colors */
   --a-rank: #ea597c;
@@ -192,7 +192,7 @@ body {
   height: inherit;
   border-radius: 50%;
   /* blue background */
-  background-color: var(--checked-blue);
+  background-color: var(--checked-green);
   /* the padding insets the checkbox (makes it bigger/smaller) */
   padding: 10px;
   box-sizing: border-box;
@@ -250,7 +250,7 @@ body {
   border: 5px solid var(--no-rank);
 }
 .ranking__entry-icon-border.dragged-over { /* defines a border for when you drag over a trainee in ranking */
-  border: 5px solid var(--checked-blue);
+  border: 5px solid var(--checked-green);
 }
 
 .table__entry-text {
