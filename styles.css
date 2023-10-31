@@ -11,7 +11,7 @@
   --ranking-affil-gray: #989898;
   --save-box-gray: #b1b1b1;
 
-  --checked-green: #66e9c8;
+  --checked-green: #50e389;
 
   /* ranking border colors */
   --a-rank: #ea597c;
@@ -121,7 +121,7 @@ body {
   color: white;
 }
 #getlink-button:active { /* these styles are active while get link is being pressed */
-  background-color: #f86e8e;
+  background-color: #F2819D;
 }
 #getlink-textbox {
   margin-left: 5px;
