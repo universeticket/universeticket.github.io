@@ -241,7 +241,7 @@ body {
   border: 5px solid var(--f-rank);
 }
 .no-rank-border {
-  border: none;
+  border: 5px solid var(--no-rank);
 }
 .eliminated .table__entry-icon-border {
   border: 5px solid var(--no-rank);
