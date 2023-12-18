@@ -14,11 +14,11 @@
   --checked-green: #50e389;
 
   /* ranking border colors */
-  --p-rank: #f4b3b6;
-  --r-rank: #fd9483;
-  --i-rank: #d477a6;
-  --s-rank: #f86058;
-  --m-rank: #f87d2e;
+  --a-rank: #f4b3b6;
+  --b-rank: #fd9483;
+  --c-rank: #d477a6;
+  --d-rank: #f86058;
+  --f-rank: #f87d2e;
   --no-rank: #ed2b58;
 }
 
@@ -114,7 +114,7 @@ body {
   border: none;
   border-radius: 3px;
   padding: 4px 6px 4px 6px;
-  background-color: var(--p-rank);
+  background-color: var(--a-rank);
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -225,20 +225,20 @@ body {
   background-origin: content-box;
 }
 /* Different entry borders */
-.p-rank-border {
-  border: 5px solid var(--p-rank);
+.a-rank-border {
+  border: 5px solid var(--a-rank);
 }
-.r-rank-border {
-  border: 5px solid var(--r-rank);
+.b-rank-border {
+  border: 5px solid var(--b-rank);
 }
-.i-rank-border {
-  border: 5px solid var(--i-rank);
+.c-rank-border {
+  border: 5px solid var(--c-rank);
 }
-.s-rank-border {
-  border: 5px solid var(--s-rank);
+.d-rank-border {
+  border: 5px solid var(--d-rank);
 }
-.m-rank-border {
-  border: 5px solid var(--m-rank);
+.f-rank-border {
+  border: 5px solid var(--f-rank);
 }
 .no-rank-border {
   border: none;
@@ -328,7 +328,7 @@ body {
   bottom: -5px;
   margin: auto;
   border-radius: 50%;
-  background-color: var(--p-rank);
+  background-color: var(--a-rank);
   box-sizing: border-box;
   padding: 2px;
   /* badge text options */
@@ -347,20 +347,20 @@ body {
 .bg-no {
   background-color: var(--no-rank);
 }
-.bg-p {
-  background-color: var(--p-rank);
+.bg-a {
+  background-color: var(--a-rank);
 }
-.bg-r {
-  background-color: var(--r-rank);
+.bg-b {
+  background-color: var(--b-rank);
 }
-.bg-i {
-  background-color: var(--i-rank);
+.bg-c {
+  background-color: var(--c-rank);
 }
-.bg-s {
-  background-color: var(--s-rank);
+.bg-d {
+  background-color: var(--d-rank);
 }
-.bg-m {
-  background-color: var(--m-rank);
+.bg-f {
+  background-color: var(--f-rank);
 }
 .eliminated .ranking__entry-icon-badge {
   background-color: var(--no-rank);
