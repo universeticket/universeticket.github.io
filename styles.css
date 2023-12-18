@@ -14,12 +14,12 @@
   --checked-green: #50e389;
 
   /* ranking border colors */
-  --a-rank: #f9c5c8;
-  --b-rank: #f9998a;
-  --c-rank: #d86ca2;
-  --d-rank: #ff5d54;
-  --f-rank: #fa721d;
-  --no-rank: #f4b3b6b6;
+  --p-rank: #ffa4a4;
+  --r-rank: #ff964a;
+  --i-rank: #f9da53;
+  --s-rank: #75f6a0;
+  --m-rank: #95bdfa;
+  --no-rank: #ebb4ff;
 }
 
 p {
@@ -225,20 +225,20 @@ body {
   background-origin: content-box;
 }
 /* Different entry borders */
-.a-rank-border {
-  border: 5px solid var(--a-rank);
+.p-rank-border {
+  border: 5px solid var(--p-rank);
 }
-.b-rank-border {
-  border: 5px solid var(--b-rank);
+.r-rank-border {
+  border: 5px solid var(--r-rank);
 }
-.c-rank-border {
-  border: 5px solid var(--c-rank);
+.i-rank-border {
+  border: 5px solid var(--i-rank);
 }
-.d-rank-border {
-  border: 5px solid var(--d-rank);
+.s-rank-border {
+  border: 5px solid var(--s-rank);
 }
-.f-rank-border {
-  border: 5px solid var(--f-rank);
+.m-rank-border {
+  border: 5px solid var(--m-rank);
 }
 .no-rank-border {
   border: 5px solid var(--no-rank);
@@ -328,7 +328,7 @@ body {
   bottom: -5px;
   margin: auto;
   border-radius: 50%;
-  background-color: var(--a-rank);
+  background-color: var(--p-rank);
   box-sizing: border-box;
   padding: 2px;
   /* badge text options */
@@ -347,20 +347,20 @@ body {
 .bg-no {
   background-color: var(--no-rank);
 }
-.bg-a {
-  background-color: var(--a-rank);
+.bg-p {
+  background-color: var(--p-rank);
 }
-.bg-b {
-  background-color: var(--b-rank);
+.bg-r {
+  background-color: var(--r-rank);
 }
-.bg-c {
-  background-color: var(--c-rank);
+.bg-i {
+  background-color: var(--i-rank);
 }
-.bg-d {
-  background-color: var(--d-rank);
+.bg-s {
+  background-color: var(--s-rank);
 }
-.bg-f {
-  background-color: var(--f-rank);
+.bg-m {
+  background-color: var(--m-rank);
 }
 .eliminated .ranking__entry-icon-badge {
   background-color: var(--no-rank);
