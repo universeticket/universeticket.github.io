@@ -114,7 +114,7 @@ body {
   border: none;
   border-radius: 3px;
   padding: 4px 6px 4px 6px;
-  background-color: var(--a-rank);
+  background-color: #f4466f;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -241,7 +241,7 @@ body {
   border: 5px solid var(--m-rank);
 }
 .no-rank-border {
-  border: 5px solid var(--no-rank);
+  border: none;
 }
 .eliminated .table__entry-icon-border {
   border: 5px solid var(--no-rank);
