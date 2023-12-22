@@ -7,7 +7,8 @@ A personal ranker that allows you to rank and sort your own Top 8 for SBS's Kore
 * 26/10: Removed grey background, added colors for 1st and 2nd half
 * 30/10: Nationality is now showcased instead of company on contestants list
 * 10/12: Finally updated to first elims and added top trainees
-* 17/12: Updated to EP05 elims, added PRISM as classes
+* 17/12: Updated to EP05 elims, added PRISM as classes, changed colors
+* 22/12: Updated to EP06 elims, changed colors
 
 <b>WIP</b>
 * Maybe make a mode for different stages of eliminations?

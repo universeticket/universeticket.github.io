@@ -14,12 +14,12 @@
   --checked-green: #50e389;
 
   /* ranking border colors */
-  --p-rank: #ffa4a4;
-  --r-rank: #ff964a;
-  --i-rank: #f9da53;
-  --s-rank: #a1f6b5;
-  --m-rank: #95bdfa;
-  --no-rank: #ebb4ff;
+  --p-rank: #e751d6;
+  --r-rank: #f07822;
+  --i-rank: #ecd92b;
+  --s-rank: #3f9e55;
+  --m-rank: #2197c6;
+  --no-rank: #63217b;
 }
 
 p {
