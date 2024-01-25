@@ -10,6 +10,7 @@ A personal ranker that allows you to rank and sort your own Top 8 for SBS's Kore
 * 17/12: Updated to EP05 elims, added PRISM as classes, changed colors
 * 22/12: Updated to EP06 elims, changed colors
 * 02/01: Updated to EP07 elims, changed colors according to PRISM stage
+* 25/01: Updated to final ranking
 
 <b>WIP</b>
 * Maybe make a mode for different stages of eliminations?
